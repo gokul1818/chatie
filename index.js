@@ -3,7 +3,10 @@
  */
 
 import {AppRegistry} from 'react-native';
-import  WebSocketExample  from './App';
+import  App  from './App';
 import {name as appName} from './app.json';
+import { initializeApp } from '@react-native-firebase/app';
 
-AppRegistry.registerComponent(appName, () => WebSocketExample);
+initializeApp();
+
+AppRegistry.registerComponent(appName, () => App);
