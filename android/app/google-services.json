@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421850472203",
+    "project_id": "chatie-21069",
+    "storage_bucket": "chatie-21069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421850472203:android:d6fcbcc57a612a4b468c0e",
+        "android_client_info": {
+          "package_name": "com.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0rTb5vgHdbpVihGLK1r9MjhcgFNVSCFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

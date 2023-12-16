@@ -65,7 +65,7 @@ const App = () => {
   useEffect(() => {
     initializeApp();
   }, []);
-  
+
   useEffect(() => {
     const unsubscribeAuth = auth().onAuthStateChanged((user) => {
       // Handle user authentication state changes
