@@ -52,11 +52,14 @@
 
 
 import { useEffect } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import auth from '@react-native-firebase/auth';
 import ChatScreen from './ChatScreen';
 import { initializeApp } from '@react-native-firebase/app';
+import LoginPage from './LoginPage';
+
+const navigation=useNavigation()
 
 const Stack = createStackNavigator();
 
@@ -76,9 +79,8 @@ const App = () => {
 
   return (
     <NavigationContainer>
-    <Stack.Navigator initialRouteName="Chat">
-      <Stack.Screen name="Chat" component={ChatScreen} />
-      {/* Add other screens as needed */}
+    <Stack.Navigator initialRouteName="login">
+      <Stack.Screen name="login" component={LoginPage} />
     </Stack.Navigator>
   </NavigationContainer>
   );
